@@ -15,10 +15,25 @@ dependencies:
 
   meta: ^1.9.1
 
-  wakelock_macos: ^0.4.0
-  wakelock_platform_interface: ^0.3.0
-  wakelock_web: ^0.4.0
-  wakelock_windows: ^0.2.0
+  wakelock_macos: 
+    git:
+      url: https://github.com/sasen98/wakelock
+      path: wakelock_macos
+ 
+  wakelock_platform_interface: 
+    git:
+      url: https://github.com/sasen98/wakelock
+      path: wakelock_platform_interface
+
+  wakelock_web: 
+     git:
+      url: https://github.com/sasen98/wakelock
+      path: wakelock_web
+
+  wakelock_windows: 
+   git:
+      url: https://github.com/sasen98/wakelock
+      path: wakelock_windows
 
 dev_dependencies:
   flutter_test:

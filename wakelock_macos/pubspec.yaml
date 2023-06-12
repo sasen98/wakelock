@@ -13,8 +13,11 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-
-  wakelock_platform_interface: ^0.3.0
+    
+  wakelock_platform_interface: 
+    git:
+      url: https://github.com/sasen98/wakelock
+      path: wakelock_platform_interface
 
 dev_dependencies:
   flutter_test:
