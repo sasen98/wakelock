@@ -13,7 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  meta: ^1.2.0
+  meta: ^1.9.1
 
   wakelock_macos: ^0.4.0
   wakelock_platform_interface: ^0.3.0
