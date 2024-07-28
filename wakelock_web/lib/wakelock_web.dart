@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:js/js.dart';
 import 'package:wakelock_platform_interface/wakelock_platform_interface.dart';
+
 import 'package:wakelock_web/src/import_js_library.dart';
 import 'package:wakelock_web/src/js_wakelock.dart' as wakelock_web;
 
