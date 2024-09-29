@@ -15,10 +15,10 @@ dependencies:
     sdk: flutter
 
   wakelock_platform_interface:
-    # git:
-    # url: https://github.com/sasen98/wakelock
-    path: ../wakelock_platform_interface
-    # ref: versionup
+    git:
+      url: https://github.com/sasen98/wakelock
+      path: wakelock_platform_interface
+      ref: versionup
 
 dev_dependencies:
   flutter_test:
